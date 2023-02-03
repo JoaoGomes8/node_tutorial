@@ -9,6 +9,8 @@ const server = http.createServer((req,res) =>{
 
     if(req.url == "/"){
         res.end('Página inicial do nosso website')
+        res.end('Página inicial do nosso website')
+        res.end('Página inicial do nosso website')
     } else if(req.url == "/new") {
         res.end('Página nova do nosso website')
     } else if(req.url == "/contacts") {
